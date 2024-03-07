@@ -1,0 +1,46 @@
+{
+  "name": "starchain",
+  "version": "1.0.1",
+  "description": "A Node.js library for seamless Ethereum blockchain interaction, facilitating tasks like balance checks, transactions, and more with ease",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha --timeout 1000 test/*.test.js",
+    "dev": "nodemon src/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-jlion/starChain.git"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "blockchain",
+    "ethereumjs",
+    "nodejs",
+    "cryptocurrency",
+    "API",
+    "dapps"
+  ],
+  "author": "supper@9126.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-jlion/starChain/issues"
+  },
+  "homepage": "https://github.com/e-jlion/starChain#readme",
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethereumjs-util": "^7.1.5",
+    "express": "^4.18.2",
+    "web3": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "nodemon": "^3.1.0"
+  }
+}
