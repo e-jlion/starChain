@@ -1,6 +1,6 @@
 {
   "name": "starchain",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A Node.js library for seamless Ethereum blockchain interaction, facilitating tasks like balance checks, transactions, and more with ease",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e-jlion/starChain.git"
+    "url": "https://github.com/e-jlion/starChain"
   },
   "keywords": [
     "ethereum",
